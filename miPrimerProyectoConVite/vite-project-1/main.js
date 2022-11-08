@@ -3,7 +3,7 @@ import javascriptLogo from './javascript.svg'
 import { setupCounter } from './counter.js'
 import suma from "./suma.ts"
 
-console.log(suma(2+5))
+console.log(suma(2,5))
 
 document.querySelector('#app').innerHTML = `
   <div>
